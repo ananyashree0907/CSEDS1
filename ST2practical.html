@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox student profile card</title>
+<style>
+    body{  
+margin: 20px; 
+background: #c9c8c9; 
+} 
+ h1{text-align: center;} 
+    .container{ 
+      display: flex;                   
+      flex-direction: row;           
+      justify-content: center;        
+      align-items: center;            
+      gap: 20px;                     
+      flex-wrap: wrap;                
+    } 
+      .avatar{ 
+      width: 70px; height: 70px; 
+      background: #11465f; color: #fff; 
+      border-radius: 50%; 
+      display: flex; justify-content: center; align-items: center; 
+      font-size: 20px; margin: 0 auto 12px; 
+        }
+    .card{ 
+      background: #c54f98; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      width: 220px; 
+      text-align: center; 
+      padding: 16px; 
+    } 
+    .name{ font-weight: bold; font-size: 18px; } 
+    .detail{ font-size: 14px; color: #0d0c0c; margin: 2px 0;}
+    </style>
+    </head>
+    <body>
+      <h1>Student Profile</h1> 
+  <div class="container"> 
+    <div class="card">  
+      <div class="name">Ananya Shree</div>
+       <div class="avatar">AS</div> 
+      <div class="detail">B.Tech - CSE-DS</div> 
+      <div class="detail">Roll No: 2025B15410197</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    <div class="card">  
+      <div class="name">Astha Tripathi</div> 
+       <div class="avatar">AT</div> 
+      <div class="detail">B.Tech - CSE-DS</div> 
+      <div class="detail">Roll No:2025B15410078</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    
+</body>
+</html>
